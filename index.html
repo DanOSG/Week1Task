@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Osgood - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Daniel Osgood</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="your-picture.png" alt="Your Picture" class="profile-pic">
+            <p>My name is Daniel Osgood and I'm a Unity Developer
+                looking to expand into web development.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.png" alt="Project 1">
+                <h3>The Quiet Peaks</h3>
+                <p>FPS horror game with a retro graphics style,
+                    many examples of advanced mechanics, world interactivity,
+                    Finite State Machine AI, and more.
+                </p>
+            </div>
+            <div class="project">
+                <img src="project2.gif" alt="Project 2">
+                <h3>If Caught Then Run</h3>
+                <p>A short but engaging 2.5D side scroller, built over 2 weeks
+                    it showcases much of what makes the genre engaging.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <ul class="contact-links">
+                <li><a href="mailto:fakeemail@example.com">fakeemail@example.com</a></li>
+                <li><a href="tel:+447573663342">07573663342 </a></li> 
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Daniel Osgood</p>
+    </footer>
+</body>
+</html>
